@@ -1,7 +1,10 @@
 package br.com.tarefas;
+import br.com.tarefas.service.GerenciadorTarefas;
+
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Gerenciador de Tarefas Inteligente iniciado!");
+        GerenciadorTarefas gerenciador = new GerenciadorTarefas();
+
     }
 }
